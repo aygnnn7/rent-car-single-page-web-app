@@ -1,0 +1,18 @@
+.user {
+    display: flex;
+    .user-cars-holder{
+        display: flex;
+        border-left: 3px solid grey;
+        border-radius: 3px;
+    }
+    .card{
+        height: 80%;
+    }
+
+    .user-own-cars-holder{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100%;
+    }
+}

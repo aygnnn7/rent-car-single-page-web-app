@@ -1,0 +1,31 @@
+.cars-list-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5%;
+    justify-content: center;
+    align-items: center;
+    
+    .owner-banner{
+        color: green;
+    }
+   
+
+} 
+.dateRange{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    h5{
+        width: 50%;
+    }
+    .dtPicker{
+        width: 50%;
+    }
+}
+.cars-list-outer{
+    background-color: wheat;
+
+    .dateAlert{
+        margin: 1% 20%;
+    }
+}

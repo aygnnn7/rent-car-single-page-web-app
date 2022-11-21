@@ -1,0 +1,241 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fName": "Aygyun",
+      "lName": "Ahmed",
+      "email": "1@1",
+      "password": "1",
+      "phone": "0888888888",
+      "picture": "https://picsum.photos/200/300?random=0.884778772159029"
+    },
+    {
+      "id": "2",
+      "fName": "Aleks",
+      "lName": "Yordanov",
+      "email": "2@2",
+      "password": "2",
+      "phone": "0888888888",
+      "picture": "https://picsum.photos/200/300?random=0.7147656199072925"
+    },
+    {
+      "id": "3",
+      "fName": "Armen",
+      "lName": "Zemena",
+      "email": "3@3",
+      "password": "3",
+      "phone": "0888888888",
+      "picture": "https://picsum.photos/200/300?random=0.7147656199072925"
+    },
+    {
+      "id": "4",
+      "fName": "Gretem",
+      "lName": "Kalero",
+      "email": "4@4",
+      "password": "4",
+      "phone": "0888888888",
+      "picture": "https://picsum.photos/200/300?random=0.7147656199072925"
+    }
+  ],
+  "cars": [
+    {
+      "type": "SUV",
+      "id": "slhU6ri",
+      "ownerId": "2",
+      "brand": "Mercedes-Benz",
+      "model": "D400",
+      "year": "2004",
+      "fuelType": "Petrol",
+      "seats": "4",
+      "picture": "https://picsum.photos/300/200?random=2",
+      "pricePerDay": "20"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "A100",
+      "fuelType": "Hybrid",
+      "seats": 2,
+      "type": "ECONOMY",
+      "year": "2010",
+      "picture": "https://picsum.photos/300/200?random=0.08607475393498887",
+      "pricePerDay": "40",
+      "ownerId": "3",
+      "id": "OGHuRc2"
+    },
+    {
+      "brand": "BMW",
+      "model": "C300",
+      "fuelType": "Hybrid",
+      "seats": "4",
+      "type": "SUV",
+      "year": "2011",
+      "picture": "https://picsum.photos/300/200?random=0.6387475732543604",
+      "pricePerDay": "30",
+      "ownerId": "4",
+      "id": "1sLMGDm"
+    },
+    {
+      "brand": "BMW",
+      "model": "B200",
+      "fuelType": "Diesel",
+      "seats": "4",
+      "type": "ESTATE",
+      "year": "2003",
+      "picture": "https://picsum.photos/300/200?random=0.7917846116838558",
+      "pricePerDay": "40",
+      "ownerId": "2",
+      "id": "RGiT0mr"
+    },
+    {
+      "brand": "BMW",
+      "model": "C300",
+      "fuelType": "Diesel",
+      "seats": "6",
+      "type": "LUXURY",
+      "year": "2021",
+      "picture": "https://picsum.photos/300/200?random=0.17282606973519088",
+      "pricePerDay": "200",
+      "ownerId": "1",
+      "id": "CZZ-nBY"
+    },
+    {
+      "brand": "AUDI",
+      "model": "A100",
+      "fuelType": "Petrol",
+      "seats": 2,
+      "type": "SUV",
+      "year": "2004",
+      "picture": "https://picsum.photos/300/200?random=0.9503016968518307",
+      "pricePerDay": "30",
+      "ownerId": "2",
+      "id": "xPkacsl"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "A100",
+      "fuelType": "Petrol",
+      "seats": 2,
+      "type": "SUV",
+      "year": "2000",
+      "picture": "https://picsum.photos/300/200?random=0.9452635902364002",
+      "pricePerDay": "25",
+      "ownerId": "2",
+      "id": "RjYXv-7"
+    },
+    {
+      "brand": "BMW",
+      "model": "A100",
+      "fuelType": "Diesel",
+      "seats": "6",
+      "type": "SUV",
+      "year": "2020",
+      "picture": "https://picsum.photos/300/200?random=0.38642347249334286",
+      "pricePerDay  ": "100",
+      "ownerId": "2",
+      "id": "4PWkK-f"
+    },
+    {
+      "brand": "AUDI",
+      "model": "B200",
+      "fuelType": "Hybrid",
+      "seats": "4",
+      "type": "LUXURY",
+      "year": "2003",
+      "picture": "https://picsum.photos/300/200?random=0.09204070307269685",
+      "pricePerDay": "24",
+      "ownerId": "2",
+      "id": "Z6iqa-g"
+    },
+    {
+      "brand": "AUDI",
+      "model": "D400",
+      "fuelType": "Diesel",
+      "seats": "6",
+      "type": "CARGO",
+      "year": "2022",
+      "picture": "https://picsum.photos/300/200?random=0.40752216409159225",
+      "pricePerDay": "120",
+      "ownerId": "2",
+      "id": "--dnmWK"
+    }
+  ],
+  "rentalDetails": [
+    {
+      "startDateTime": "2022-11-21T01:40:02.298Z",
+      "endDateTime": "2022-11-22T01:40:02.298Z",
+      "vehicleId": "OGHuRc2",
+      "customerId": "1",
+      "active": true,
+      "days": 1,
+      "discount": 0,
+      "priceTotal": 40,
+      "id": 1
+    },
+    {
+      "startDateTime": "2022-11-21T01:41:26.148Z",
+      "endDateTime": "2022-11-22T01:41:26.148Z",
+      "vehicleId": "xPkacsl",
+      "customerId": "1",
+      "active": true,
+      "days": 1,
+      "discount": 0,
+      "priceTotal": 30,
+      "id": 2
+    },
+    {
+      "startDateTime": "2022-11-21T01:41:50.199Z",
+      "endDateTime": "2022-11-23T01:41:50.199Z",
+      "vehicleId": "1sLMGDm",
+      "customerId": "1",
+      "active": true,
+      "days": 2,
+      "discount": 0,
+      "priceTotal": 60,
+      "id": 3
+    },
+    {
+      "startDateTime": "2022-11-21T01:44:51.206Z",
+      "endDateTime": "2022-11-23T01:44:51.206Z",
+      "vehicleId": "RGiT0mr",
+      "customerId": "1",
+      "active": true,
+      "days": 2,
+      "discount": 15,
+      "priceTotal": "74.67",
+      "id": 4
+    },
+    {
+      "startDateTime": "2022-11-23T01:53:44.635Z",
+      "endDateTime": "2022-12-03T01:53:44.635Z",
+      "vehicleId": "CZZ-nBY",
+      "customerId": "3",
+      "active": true,
+      "days": 10,
+      "discount": 10,
+      "priceTotal": "1800.00",
+      "id": 5
+    },
+    {
+      "startDateTime": "2022-11-26T01:56:00.513Z",
+      "endDateTime": "2022-11-27T01:56:00.513Z",
+      "vehicleId": "1sLMGDm",
+      "customerId": "3",
+      "active": true,
+      "days": 1,
+      "discount": 0,
+      "priceTotal": 30,
+      "id": 6
+    },
+    {
+      "startDateTime": "2022-11-26T01:56:18.179Z",
+      "endDateTime": "2022-12-02T01:56:18.179Z",
+      "vehicleId": "OGHuRc2",
+      "customerId": "2",
+      "active": true,
+      "days": 6,
+      "discount": 7,
+      "priceTotal": "205.71",
+      "id": 7
+    }
+  ]
+}

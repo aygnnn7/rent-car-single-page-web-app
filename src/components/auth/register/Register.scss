@@ -1,0 +1,21 @@
+.register-form-wrapper{
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    form{
+        border: 1px solid gray;
+        padding:20px;
+        width:500px;
+        border-radius: 10px;
+        .btn-holder{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            .sgn-btn{
+                text-decoration: none;
+            }
+        }
+    }
+}
